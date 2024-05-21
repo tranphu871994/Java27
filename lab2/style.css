@@ -1,0 +1,25 @@
+/*  Áp dụng cho tất cả nội dung */
+* {
+  text-decoration: overline dashed;
+}
+
+.heading {
+  font-size: 50px;
+  background-color: aqua;
+  color: brown;
+  text-align: center;
+}
+/* Áp dụng cho nhiều bộ chọn khác nhau  */
+.biasaigon,
+.biahaniken {
+  color: blue;
+  text-decoration: overline;
+}
+/* Áp dụng cho avatar nằm trong container là thẻ con */
+.container > .avatar {
+  width: 200px;
+}
+/* Áp dụng cho phần thử có CẢ HAI class */
+.heading.special-heading {
+  color: blue;
+}
