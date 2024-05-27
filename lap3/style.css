@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+/*  về sau đầu tiên mình phải đặt box - sizing: border - box */
+
+.box {
+  /*  thay đổi cách hiển thị (box model ) */
+  display: block;
+  /* màu nền */
+  background-color: green;
+  /*  content box */ /* chỉ áp dụng vùng trong cùng */
+  box-sizing: border-box;
+  width: 300px; /* chiều rộng */
+  height: 300px; /* chiều cao */
+  /*  padding */
+  padding: 30px; /* tính vào kích thước phần tử */
+
+  /*  Boder box */ /* là viền */
+  border: 5px solid red;
+  border-radius: 30px;
+
+  /* Margin */ /* khoảng cách giữa các nội dung */
+  margin-bottom: 50px; /* không tính vào kích thước */
+
+  background-image: url(girl.jpg); /* ảnh nền */
+}
