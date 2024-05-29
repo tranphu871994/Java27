@@ -4,6 +4,11 @@
   padding: 0;
 }
 
+.article-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px; /* Khoảng cách giữa các mục nội dung */
+}
 .article {
   width: 320px;
   border-radius: 20px;

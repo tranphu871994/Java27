@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.josefin-slab {
+  font-family: "Josefin Slab", serif;
+}
+
+.pt-serif {
+  font-family: "PT Serif", serif;
+}
+
+body {
+  background-color: #001d66;
+}
+
+.heading {
+  font-size: 32px;
+  font-weight: 700;
+  word-spacing: 0px;
+  color: #ffffff;
+  margin-bottom: 77px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.article {
+  background-color: #ffffff;
+  padding: 52px 20px 20px;
+  width: 320px;
+  margin: 0 auto;
+}
+
+.article__title {
+  font-size: 32px;
+  color: #00257f;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+
+.article__thumbnail {
+  width: 100%;
+  margin-bottom: 13px;
+}
+
+.article__published-time {
+  display: block;
+  font-size: 12.8px;
+  color: #000000ab;
+  margin-bottom: 16px;
+}
+
+.article__description {
+  color: #000000ab;
+  margin-bottom: 16px;
+}
+
+.article__read-more {
+  font-size: 13.913px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #001d66;
+}
