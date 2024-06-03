@@ -3,145 +3,108 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Thực hành FlexBox</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <main class="main">
+    <header class="header">
       <div class="container">
         <div class="row">
-          <div class="col-3">
-            <article class="blog-card">
-              <div class="blog__thumbnail display-flex">
-                <img
-                  src="https://media.techmaster.vn/api/static/bub3enc51co7s932dsk0/_hgHNbgI"
-                  alt="Ý nghĩa đầu tiên của Duyên khi nhận chứng chỉ FE"
-                />
-              </div>
-
-              <div class="blog__content">
-                <h3 class="blog__title">
-                  Ý nghĩ đầu tiên của Duyên khi nhận được kết quả thi chứng chỉ
-                  CNTT FE
-                </h3>
-
-                <p class="blog__excerpt">
-                  Đi học mới thấy mình chưa là gì, nhiều nội dung cứ tưởng mình
-                  đã hiểu rồi, nhưng đến lớp các thầy phân tích cho mới nhận ra
-                  mình sai nhiều như nào.
-                </p>
-              </div>
-
-              <div
-                class="blog__meta display-flex align-items-center justify-content-between"
-              >
-                <span class="blog__view-count"> 👁️ 1234 </span>
-                <time datetime="05-06-2024" class="blog__published-at"
-                  >05-06-2024</time
-                >
-              </div>
-            </article>
+          <div class="col-2">
+            <div class="logo">Logo</div>
           </div>
+          <div class="col-4"></div>
 
-          <div class="col-3">
-            <article class="blog-card">
-              <div class="blog__thumbnail display-flex">
-                <img
-                  src="https://media.techmaster.vn/api/static/bub3enc51co7s932dsk0/_hgHNbgI"
-                  alt="Ý nghĩa đầu tiên của Duyên khi nhận chứng chỉ FE"
-                />
-              </div>
-
-              <div class="blog__content">
-                <h3 class="blog__title">
-                  Ý nghĩ đầu tiên của Duyên khi nhận được kết quả thi chứng chỉ
-                  CNTT FE
-                </h3>
-
-                <p class="blog__excerpt">
-                  Đi học mới thấy mình chưa là gì, nhiều nội dung cứ tưởng mình
-                  đã hiểu rồi, nhưng đến lớp các thầy phân tích cho mới nhận ra
-                  mình sai nhiều như nào.
-                </p>
-              </div>
-
-              <div
-                class="blog__meta display-flex align-items-center justify-content-between"
-              >
-                <span class="blog__view-count"> 👁️ 1234 </span>
-                <time datetime="05-06-2024" class="blog__published-at"
-                  >05-06-2024</time
-                >
-              </div>
-            </article>
-          </div>
-
-          <div class="col-3">
-            <article class="blog-card">
-              <div class="blog__thumbnail display-flex">
-                <img
-                  src="https://media.techmaster.vn/api/static/bub3enc51co7s932dsk0/_hgHNbgI"
-                  alt="Ý nghĩa đầu tiên của Duyên khi nhận chứng chỉ FE"
-                />
-              </div>
-
-              <div class="blog__content">
-                <h3 class="blog__title">
-                  Ý nghĩ đầu tiên của Duyên khi nhận được kết quả thi chứng chỉ
-                  CNTT FE
-                </h3>
-
-                <p class="blog__excerpt">
-                  Đi học mới thấy mình chưa là gì, nhiều nội dung cứ tưởng mình
-                  đã hiểu rồi, nhưng đến lớp các thầy phân tích cho mới nhận ra
-                  mình sai nhiều như nào.
-                </p>
-              </div>
-
-              <div
-                class="blog__meta display-flex align-items-center justify-content-between"
-              >
-                <span class="blog__view-count"> 👁️ 1234 </span>
-                <time datetime="05-06-2024" class="blog__published-at"
-                  >05-06-2024</time
-                >
-              </div>
-            </article>
-          </div>
-
-          <div class="col-3">
-            <article class="blog-card">
-              <div class="blog__thumbnail display-flex">
-                <img
-                  src="https://media.techmaster.vn/api/static/bub3enc51co7s932dsk0/_hgHNbgI"
-                  alt="Ý nghĩa đầu tiên của Duyên khi nhận chứng chỉ FE"
-                />
-              </div>
-
-              <div class="blog__content">
-                <h3 class="blog__title">
-                  Ý nghĩ đầu tiên của Duyên khi nhận được kết quả thi chứng chỉ
-                  CNTT FE
-                </h3>
-
-                <p class="blog__excerpt">
-                  Đi học mới thấy mình chưa là gì, nhiều nội dung cứ tưởng mình
-                  đã hiểu rồi, nhưng đến lớp các thầy phân tích cho mới nhận ra
-                  mình sai nhiều như nào.
-                </p>
-              </div>
-
-              <div
-                class="blog__meta display-flex align-items-center justify-content-between"
-              >
-                <span class="blog__view-count"> 👁️ 1234 </span>
-                <time datetime="05-06-2024" class="blog__published-at"
-                  >05-06-2024</time
-                >
-              </div>
-            </article>
+          <div class="col-6">
+            <nav class="navigation">Navigation</nav>
           </div>
         </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="container">
+        <section class="banner">
+          <div class="row">
+            <div class="col-12">
+              <div class="banner">Banner</div>
+            </div>
+          </div>
+        </section>
+
+        <section class="most-love">
+          <div class="header">
+            <div class="row">
+              <div class="col-4"></div>
+              <div class="col-4">
+                <div class="title d-flex justify-content-center">
+                  Most Loved Items
+                </div>
+              </div>
+              <div class="col-3"></div>
+              <div class="col-1">
+                <a href="" class="justify-content-end d-flex">View all</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="content">
+            <div class="row">
+              <div class="col-3">
+                <div class="product-card">Product 1</div>
+              </div>
+              <div class="col-3">
+                <div class="product-card">Product 2</div>
+              </div>
+              <div class="col-3">
+                <div class="product-card">Product 3</div>
+              </div>
+              <div class="col-3">
+                <div class="product-card">Product 4</div>
+              </div>
+              <div class="col-3">
+                <div class="product-card">Product 5</div>
+              </div>
+              <div class="col-3">
+                <div class="product-card">Product 6</div>
+              </div>
+              <div class="col-3">
+                <div class="product-card">Product 7</div>
+              </div>
+              <div class="col-3">
+                <div class="product-card">Product 8</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="blog">
+          <div class="blog">
+            <div class="row">
+              <div class="col-4"></div>
+              <div class="col-4">
+                <div class="title d-flex justify-content-center">Our Blogs</div>
+              </div>
+              <div class="col-3"></div>
+              <div class="col-1">
+                <a href="" class="d-flex justify-content-end">View all</a>
+              </div>
+            </div>
+
+            <div class="content"></div>
+          </div>
+          <div class="row">
+            <div class="col-4">
+              <div class="post-card">Bài viết 1</div>
+            </div>
+            <div class="col-4">
+              <div class="post-card">Bài viết 2</div>
+            </div>
+            <div class="col-4">
+              <div class="post-card">Bài viết 3</div>
+            </div>
+          </div>
+        </section>
       </div>
     </main>
   </body>
