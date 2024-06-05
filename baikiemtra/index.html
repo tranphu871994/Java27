@@ -1,67 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>btvnlap4</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
     <link rel="stylesheet" href="style.css" />
-    <style></style>
-  </head>
-  <body>
-    <div class="container">
-      <h2 class="NewReleases">New Releases</h2>
-      <div class="product-grid">
-        <div class="product-item">
-          <img
-            src="https://leospaw.com/cdn/shop/files/leos-paw-absorbent-pet-feeding-mat-55568697721156_900x.jpg?v=1711564301"
-            alt="Cat Hair Removal Massaging Shell Comb"
-          />
-          <div class="product-info">
-            <div class="product-name">
-              Cat Hair Removal Massaging Shell Comb
+
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="header-section">
+        <div class="header-content">
+            <img src="https://uploads-ssl.webflow.com/5fa25266badbdb239c79ef86/600d02571dd34a98dc957dc1_me12%202.png" alt="Profile Picture" class="profile-pic">
+            <h1 class="header-title">Hi there!</h1>
+            <p class="header-text">Fuelled by a passion for designing compelling products, I have a deep desire to excel and continuously improve in my work. Learn more about my journey below.</p>
+        </div>
+    </header>
+
+    <!-- Career Section -->
+    <section class="career-section">
+        <div class="career-content">
+            <h2 class="career-title">My Career So Far</h2>
+            <p class="career-text">Always up for a challenge, I have worked for lean start-ups and was a member of the first New Zealand start-up to attend Y Combinator, the largest start-up accelerator in the world. From there, I worked my way up to Art Director and Team Lead at Appster where I oversaw the design of 30+ mobile and desktop apps. Currently, I am a Senior Product Designer at Linktree leading design for the Linktree mobile app.</p>
+            <div class="skills">
+                <span class="skill-tag">UI Design</span>
+                <span class="skill-tag">UX Design</span>
+                <span class="skill-tag">Prototyping</span>
+                <span class="skill-tag">Branding</span>
+                <span class="skill-tag">HTML/CSS</span>
+                <span class="skill-tag">Wireframing</span>
+                <span class="skill-tag">Information Architecture</span>
+                <span class="skill-tag">User Research</span>
+                <span class="skill-tag">User Interviews</span>
+                <span class="skill-tag">Leadership</span>
+                <span class="skill-tag">Figma</span>
+                <span class="skill-tag">Adobe Suite</span>
             </div>
-            <div class="product-rating">⭐⭐⭐⭐⭐ (3,581)</div>
-            <div class="product-price">775.000₫</div>
-          </div>
         </div>
-        <div class="product-item">
-          <img
-            src="https://leospaw.com/cdn/shop/files/leos-paw-interactive-mouse-toy-with-sound-new-55044162519364_720x.jpg?v=1708864843"
-            alt="Interactive Bird Simulation Cat Toy Set"
-          />
-          <div class="product-info">
-            <div class="product-name">
-              Interactive Bird Simulation Cat Toy Set | Leo's Paw
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="testimonial-section">
+        <div class="testimonial-content">
+            <h2 class="testimonial-title">On Working With Me</h2>
+            <div class="testimonial-item">
+                <img src="https://uploads-ssl.webflow.com/5fa25266badbdb239c79ef86/6003bc8a500ee553547067e4_1560732160364-p-500.jpeg" alt="Lana Kinney" class="testimonial-pic">
+                <div class="testimonial-info">
+                    <p class="testimonial-name">Lana Kinney</p>
+                    <p class="testimonial-title">UX Researcher at AKQA</p>
+                </div>
             </div>
-            <div class="product-rating">⭐⭐⭐⭐⭐ (1,147)</div>
-            <div class="product-price">1.034.000₫</div>
-          </div>
+            <p class="testimonial-text">"Sebastian is a guru at all things UX design, consistently producing intuitive, modern, and bold designs. He is a natural problem solver in the design space so everyone went to him if they were stuck on a feature or flow. He has a arsenal of design skills including animation and graphic design. Not to mention, Seb was a design team lead, which means he managed a full team of both onshore and offshore designers reviewing and providing feedback on all of their designs... Any business would be lucky to have him."</p>
         </div>
-        <div class="product-item">
-          <img
-            src="https://leospaw.com/cdn/shop/files/leos-paw-replacement-birds-for-chirping-bird-with-catnip-54651889942852_720x.jpg?v=1706789806"
-            alt="Anti-Vomiting Orthopedic Cat Bowl"
-          />
-          <div class="product-info">
-            <div class="product-name">Anti-Vomiting Orthopedic Cat Bowl</div>
-            <div class="product-rating">⭐⭐⭐⭐⭐ (418)</div>
-            <div class="product-price">1.034.000₫ <del>1.500.000₫</del></div>
-          </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="contact-content">
+            <h2 class="contact-title">Want to get in touch?</h2>
+            <form action="#" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" id="name" name="name" class="form-input">
+                </div>
+                <div class="form-group">
+                    <label for="email" class="form-label">Email Address</label>
+                    <input type="email" id="email" name="email" class="form-input">
+                </div>
+                <div class="form-group">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea id="message" name="message" rows="4" class="form-input"></textarea>
+                </div>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
         </div>
-        <div class="product-item">
-          <img
-            src="https://leospaw.com/cdn/shop/files/leos-paw-playpen-cat-tunnel-54651902198084_720x.jpg?v=1706789983"
-            alt="Furniture Scratch Protector"
-          />
-          <div class="product-info">
-            <div class="product-name">
-              Furniture Scratch Protector 18x12" (45x30cm)
-            </div>
-            <div class="product-rating">⭐⭐⭐⭐⭐ (170)</div>
-            <div class="product-price">1.034.000₫</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>
+    </section>
+
+</body>
 </html>
